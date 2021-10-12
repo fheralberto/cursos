@@ -4,11 +4,13 @@
     <title>Apuntes</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no,  maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
     <!--FONT AWESOME-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">    
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Special+Elite&display=swap" rel="stylesheet">
     <!-- ANIMATE.CSS -->
     <link
     rel="stylesheet"
@@ -20,14 +22,13 @@
 
     <!--header-->
     <header class="header">
+      <div class="fondo blur10"></div>
       <div class="header-content animate__animated animate__tada animate__delay-3s">
-        <img src="img/logo-fheralberto-w-b.png" alt="Fazt Logo" class="logo">
-        <div class="title">
-          FherAlberto.tech
-        </div>
-        <div class="text">
-          Página destinada para guardar los apuntes y las prácticas de los cursos tomados por FherAlberto
-        </div>
+        <img src="img/fheralbertoP599.png" alt="Logo FherAlberto" class="logo">
+        <h1 class="titulo">FherAlberto.tech</h1>
+        <p class="text">
+          Página destinada a guardar los apuntes y las prácticas de los cursos que he tomado.
+        </p>
       </div>
     </header>
 
@@ -38,24 +39,23 @@
         <div>
           <i class="fab fa-html5 fa-5x"></i>
           <h3>html</h3>
-          <div>
-            Mis inicios en el desarrolo web. Incluye html5.
-          </div>
+          <p>
+            Cuerpo de la página
+          </p>
         </div>
         <div>
           <i class="fab fa-css3-alt fa-5x"></i>
           <h3>CSS</h3>
-          <div>
-            Próximamente: 
-            <br>flex y grid.
-          </div>
+          <p>
+            Estilos y animaciones
+          </p>
         </div>
         <div>
           <i class="fab fa-js fa-5x"></i>
           <h3>JavaScript</h3>
-          <div>
-            Para web interactiva. Próximamente.
-          </div>
+          <p>
+            Interactividad.
+          </p>
         </div>
       </div>
     </section>
@@ -66,17 +66,29 @@
           <div class="center">
             <i class="fas fa-code fa-10x"></i>
           </div>
-          <div>
-            <h3 class="title">Cursos de programación</h3>
+          <h3 class="title">Cursos de programación</h3>
+          <div class="blog">            
             <p>
-              <span>
-                21 de febrero de 2021 <br>
-                Cursos tomados hasta hoy: <br> 
-                <a href="https://www.sololearn.com/" target="_blank" class="link">SoloLearn</a>: SQL (sin prácticas), HTML, CSS. (próximamente JavaScript). <br>
-                Youtube: <a href="https://www.youtube.com/watch?v=OWKXEJN67FE&t=9556s" target="_blank" class="link">Curso de CSS desde CERO</a>.
-              </span>
+              21 de febrero de 2021 <br>
+              Cursos tomados hasta hoy: <br> 
+              <a href="https://www.sololearn.com/" target="_blank" class="link">SoloLearn</a>: SQL (sin prácticas), HTML, CSS. (próximamente JavaScript). <br>
+              Youtube: <a href="https://www.youtube.com/watch?v=OWKXEJN67FE&t=9556s" target="_blank" class="link">Curso de CSS desde CERO.</a>
             </p>
+            <div class="linea"></div>
           </div>
+          <div class="blog">
+            <p>
+              11 de octubre del 2021 <br>
+              Cursos <a href="https://www.udemy.com/" target="_blank" class="link" >Udemy:</a> <br>
+              <a href="https://www.udemy.com/course/desarrollo-web-completo-con-html5-css3-js-php-y-mysql/" target="_blank" class="link">Desarrollo Web Completo:  </a>
+              Proyectos:
+              Sass, MVC con PHP y SQL para Bienes Raíces (muy bueno)... <br>
+              Barbería, Tienda de Ropa, Blog de Café, UpTask, AgendaAjax, Paypal... <br>
+              En Curso: <a href="https://www.udemy.com/course/javascript-moderno-guia-definitiva-construye-10-proyectos/" target="_blank" class="link">JavaScript Moderno</a>, en paralelo con videos de YouTube. (próximamente react).
+            </p>
+            <div class="linea"></div>
+          </div>
+
         </div>
       </div>
     </section>
@@ -87,9 +99,7 @@
           <div>
             <h3 class="title">Sobre mí</h3>
             <p>
-              <span>
                 Página creada como práctica de aprendizaje, para consultas en caso de dudas acerca de lo aprendido y si también te gusta el mundo del desarrollo web puedas aprender con los apuntes, las prácticas de ejemplo y los link de las fuentes del aprendizaje.
-              </span>
             </p>
           </div>
           <div class="center">
@@ -101,9 +111,9 @@
 
     <!-- Footer -->
     <footer class="text-center bg-light">
-      <span>Fuente de esta página de inicio:</span>
+      <p>Fuente de inspiración para esta página:</p>
       <a href="https://www.youtube.com/watch?v=hDggsjXjQro&t=3488s" target="_blank" class="link">Fazt</a>
     </footer>
-
+    <script src="app.js"></script>
   </body>
 </html>
